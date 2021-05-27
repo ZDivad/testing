@@ -378,7 +378,7 @@ In TLS 1.3, the server sends a **certificate verify message** that includes a **
 
 ## ECDSA
 
-**Common*
+**Common**
 
 ​	Elliptic curve $E:y^2=x^3+ax+b\ mod\ p$
 
