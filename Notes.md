@@ -5,6 +5,7 @@ h3 { font: 14pt Times New Roman; font-weight:bold}
 h4 { font: 14pt Times New Roman; font-weight:bold}
 p { font: 12pt Times New Roman !important; }
 </style>
+
 # <center>Notes on ECC</center>
 
 <center>ZHOU, Junda</center>
@@ -53,7 +54,7 @@ For prime $p>5$, $x,y\in \mathbb{Z}_p^\ast$, the product $xy$ is $\begin{cases} 
 
 
 
-## Elliptic curve over $\mathbb{Z}_p$
+## Elliptic curve over $$\mathbb{Z}_p$$
 
 ### Weierstrass Curve
 
@@ -359,7 +360,7 @@ How this attack works
 
 ​	Man in the middle replaces the unprotected messages from client to the server, forcing them to work on a weak elliptic curve. By solving ECDLP on the weak curve, the attacker can learn the secret key. The attacker can then learn the shared secret. See below an example of this attack in early version of TLS.
 
-![image-20210527124233966](D:\zjd\2021 Summer research\Notes.assets\image-20210527124233966.png)
+![](Notes.assets/CurveSwap in TLS.png)
 
 CurveSwap[[1]](#refer-anchor-1) allows a man-in-the-middle to trigger a downgrade attack to force a connection to use the weakest elliptic curve that both parties support.
 
