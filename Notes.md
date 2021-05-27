@@ -1,3 +1,10 @@
+<style>
+h1 { font: 20pt Times New Roman; font-weight:bold}
+h2 { font: 16pt Times New Roman; font-weight:bold}
+h3 { font: 14pt Times New Roman; font-weight:bold}
+h4 { font: 14pt Times New Roman; font-weight:bold}
+p { font: 12pt Times New Roman !important; }
+</style>
 # <center>Notes on ECC</center>
 
 <center>ZHOU, Junda</center>
@@ -46,7 +53,7 @@ For prime $p>5$, $x,y\in \mathbb{Z}_p^\ast$, the product $xy$ is $\begin{cases} 
 
 
 
-## Elliptic curve over $$\mathbb{Z}_p$$
+## Elliptic curve over $\mathbb{Z}_p$
 
 ### Weierstrass Curve
 
